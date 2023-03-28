@@ -1,0 +1,137 @@
+28-03-2023 07:51:55.908 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [ee.inbank.loan.service.LoanDecisionServiceSegmentOneTest]: LoanDecisionServiceSegmentOneTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+28-03-2023 07:51:56.137 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.6666666666666666
+28-03-2023 07:51:56.138 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 07:51:56.139 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 2000
+28-03-2023 07:51:56.139 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 2000 € for 20 months.
+28-03-2023 07:51:56.145 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.3333333333333333
+28-03-2023 07:51:56.145 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - A larger sum could be approved
+28-03-2023 07:51:56.145 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 4000
+28-03-2023 07:51:56.145 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 4000 € for 40 months.
+28-03-2023 07:51:56.147 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.0
+28-03-2023 07:51:56.147 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 2000
+28-03-2023 07:51:56.147 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 2000 € for 20 months.
+28-03-2023 07:51:56.149 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.6000000000000001
+28-03-2023 07:51:56.149 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 07:51:56.150 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 1200
+28-03-2023 07:51:56.150 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Suitable loan amount within selected period was not found
+28-03-2023 07:51:56.150 [Test worker] INFO  e.i.loan.service.LoanDecisionService.findSuitableLoanPeriod - Loan 2000 € could be approved within new loan period 20 months
+28-03-2023 07:51:56.150 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 2000 € for 20 months.
+28-03-2023 07:51:56.153 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [ee.inbank.loan.service.LoanDecisionServiceSegmentThreeTest]: LoanDecisionServiceSegmentThreeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+28-03-2023 07:51:56.156 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.2000000000000002
+28-03-2023 07:51:56.156 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - A larger sum could be approved
+28-03-2023 07:51:56.156 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 10000
+28-03-2023 07:51:56.156 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 10000 € for 12 months.
+28-03-2023 07:51:56.158 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [ee.inbank.loan.service.LoanDecisionServiceSegmentTwoTest]: LoanDecisionServiceSegmentTwoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+28-03-2023 07:51:56.162 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.6000000000000001
+28-03-2023 07:51:56.162 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 07:51:56.162 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 3600
+28-03-2023 07:51:56.162 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 3600 € for 12 months.
+28-03-2023 07:51:56.164 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.6666666666666665
+28-03-2023 07:51:56.165 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - A larger sum could be approved
+28-03-2023 07:51:56.165 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 6000
+28-03-2023 07:51:56.165 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 6000 € for 20 months.
+28-03-2023 07:51:56.166 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.0
+28-03-2023 07:51:56.167 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 3600
+28-03-2023 07:51:56.167 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 3600 € for 12 months.
+28-03-2023 07:51:56.168 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [ee.inbank.loan.service.LoanDecisionServiceTest]: LoanDecisionServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+28-03-2023 07:51:56.171 [Test worker] ERROR e.i.loan.service.LoanDecisionService.calculate - Loan period (loanPeriod=11) is out of bounds (12-60)
+28-03-2023 07:51:56.172 [Test worker] ERROR e.i.loan.service.LoanDecisionService.calculate - Loan period (loanPeriod=61) is out of bounds (12-60)
+28-03-2023 07:51:56.175 [Test worker] ERROR e.i.loan.service.LoanDecisionService.calculate - Loan amount (loanAmount=1999) is out of bounds (2000-10000)
+28-03-2023 07:51:56.176 [Test worker] ERROR e.i.loan.service.LoanDecisionService.calculate - Loan amount (loanAmount=10001) is out of bounds (2000-10000)
+28-03-2023 07:52:31.039 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [ee.inbank.loan.service.LoanDecisionServiceSegmentOneTest]: LoanDecisionServiceSegmentOneTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+28-03-2023 07:52:31.286 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.6666666666666666
+28-03-2023 07:52:31.287 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 07:52:31.287 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 2000
+28-03-2023 07:52:31.287 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 2000 € for 20 months.
+28-03-2023 07:52:31.293 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.3333333333333333
+28-03-2023 07:52:31.293 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - A larger sum could be approved
+28-03-2023 07:52:31.294 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 4000
+28-03-2023 07:52:31.294 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 4000 € for 40 months.
+28-03-2023 07:52:31.296 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.0
+28-03-2023 07:52:31.296 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 2000
+28-03-2023 07:52:31.296 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 2000 € for 20 months.
+28-03-2023 07:52:31.298 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.6000000000000001
+28-03-2023 07:52:31.298 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 07:52:31.298 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 1200
+28-03-2023 07:52:31.298 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Suitable loan amount within selected period was not found
+28-03-2023 07:52:31.298 [Test worker] INFO  e.i.loan.service.LoanDecisionService.findSuitableLoanPeriod - Loan 2000 € could be approved within new loan period 20 months
+28-03-2023 07:52:31.298 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 2000 € for 20 months.
+28-03-2023 07:52:31.301 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [ee.inbank.loan.service.LoanDecisionServiceSegmentThreeTest]: LoanDecisionServiceSegmentThreeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+28-03-2023 07:52:31.303 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.2000000000000002
+28-03-2023 07:52:31.304 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - A larger sum could be approved
+28-03-2023 07:52:31.304 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 10000
+28-03-2023 07:52:31.304 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 10000 € for 12 months.
+28-03-2023 07:52:31.306 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [ee.inbank.loan.service.LoanDecisionServiceSegmentTwoTest]: LoanDecisionServiceSegmentTwoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+28-03-2023 07:52:31.308 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.6000000000000001
+28-03-2023 07:52:31.309 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 07:52:31.309 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 3600
+28-03-2023 07:52:31.309 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 3600 € for 12 months.
+28-03-2023 07:52:31.312 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.6666666666666665
+28-03-2023 07:52:31.312 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - A larger sum could be approved
+28-03-2023 07:52:31.312 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 6000
+28-03-2023 07:52:31.312 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 6000 € for 20 months.
+28-03-2023 07:52:31.314 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 1.0
+28-03-2023 07:52:31.314 [Test worker] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 3600
+28-03-2023 07:52:31.314 [Test worker] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 3600 € for 12 months.
+28-03-2023 07:52:31.316 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [ee.inbank.loan.service.LoanDecisionServiceTest]: LoanDecisionServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+28-03-2023 07:52:31.319 [Test worker] ERROR e.i.loan.service.LoanDecisionService.calculate - Loan period (loanPeriod=11) is out of bounds (12-60)
+28-03-2023 07:52:31.320 [Test worker] ERROR e.i.loan.service.LoanDecisionService.calculate - Loan period (loanPeriod=61) is out of bounds (12-60)
+28-03-2023 07:52:31.323 [Test worker] ERROR e.i.loan.service.LoanDecisionService.calculate - Loan amount (loanAmount=1999) is out of bounds (2000-10000)
+28-03-2023 07:52:31.324 [Test worker] ERROR e.i.loan.service.LoanDecisionService.calculate - Loan amount (loanAmount=10001) is out of bounds (2000-10000)
+28-03-2023 07:54:22.286 [main] INFO  e.inbank.InbankAssignmentApplication.logStarting - Starting InbankAssignmentApplication using Java 17.0.6 with PID 71165 (/Users/olegtrofimov/IdeaProjects/inbank-assignment-backend/build/classes/java/main started by olegtrofimov in /Users/olegtrofimov/IdeaProjects/inbank-assignment-backend)
+28-03-2023 07:54:22.288 [main] INFO  e.inbank.InbankAssignmentApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+28-03-2023 07:54:22.632 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9090 (http)
+28-03-2023 07:54:22.636 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-03-2023 07:54:22.636 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.7]
+28-03-2023 07:54:22.674 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-03-2023 07:54:22.675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 370 ms
+28-03-2023 07:54:22.696 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loanDecisionController' defined in file [/Users/olegtrofimov/IdeaProjects/inbank-assignment-backend/build/classes/java/main/ee/inbank/loan/controller/LoanDecisionController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'ee.inbank.loan.service.LoanDecisionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+28-03-2023 07:54:22.697 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+28-03-2023 07:54:22.704 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+28-03-2023 07:54:22.712 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ee.inbank.loan.controller.LoanDecisionController required a bean of type 'ee.inbank.loan.service.LoanDecisionService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ee.inbank.loan.service.LoanDecisionService' in your configuration.
+
+28-03-2023 07:56:31.747 [main] INFO  e.inbank.InbankAssignmentApplication.logStarting - Starting InbankAssignmentApplication using Java 17.0.6 with PID 71173 (/Users/olegtrofimov/IdeaProjects/inbank-assignment-backend/build/classes/java/main started by olegtrofimov in /Users/olegtrofimov/IdeaProjects/inbank-assignment-backend)
+28-03-2023 07:56:31.750 [main] INFO  e.inbank.InbankAssignmentApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+28-03-2023 07:56:32.094 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9090 (http)
+28-03-2023 07:56:32.097 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-03-2023 07:56:32.098 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.7]
+28-03-2023 07:56:32.131 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-03-2023 07:56:32.131 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 362 ms
+28-03-2023 07:56:32.439 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 9090 (http) with context path ''
+28-03-2023 07:56:32.443 [main] INFO  e.inbank.InbankAssignmentApplication.logStarted - Started InbankAssignmentApplication in 0.819 seconds (process running for 1.246)
+28-03-2023 07:57:08.812 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-03-2023 07:57:08.813 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+28-03-2023 07:57:08.815 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+28-03-2023 07:57:08.838 [http-nio-9090-exec-1] INFO  e.i.l.c.LoanDecisionController.getLoanDecision - [REQUEST]: Loan decision requested for (personalCode=49002010976, loanAmount=6000, loanPeriod=24)
+28-03-2023 07:57:08.838 [http-nio-9090-exec-1] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.4
+28-03-2023 07:57:08.839 [http-nio-9090-exec-1] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 07:57:08.839 [http-nio-9090-exec-1] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 2400
+28-03-2023 07:57:08.839 [http-nio-9090-exec-1] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 2400 € for 24 months.
+28-03-2023 07:57:24.495 [http-nio-9090-exec-2] INFO  e.i.l.c.LoanDecisionController.getLoanDecision - [REQUEST]: Loan decision requested for (personalCode=49002010965, loanAmount=2000, loanPeriod=12)
+28-03-2023 08:02:32.045 [http-nio-9090-exec-4] INFO  e.i.l.c.LoanDecisionController.getLoanDecision - [REQUEST]: Loan decision requested for (personalCode=49002010976, loanAmount=7500, loanPeriod=36)
+28-03-2023 08:02:32.048 [http-nio-9090-exec-4] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.48000000000000004
+28-03-2023 08:02:32.049 [http-nio-9090-exec-4] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 08:02:32.050 [http-nio-9090-exec-4] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 3600
+28-03-2023 08:02:32.050 [http-nio-9090-exec-4] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 3600 € for 36 months.
+28-03-2023 08:02:44.864 [http-nio-9090-exec-5] INFO  e.i.l.c.LoanDecisionController.getLoanDecision - [REQUEST]: Loan decision requested for (personalCode=49002010965, loanAmount=5000, loanPeriod=60)
+28-03-2023 08:04:23.618 [http-nio-9090-exec-7] INFO  e.i.l.c.LoanDecisionController.getLoanDecision - [REQUEST]: Loan decision requested for (personalCode=49002010976, loanAmount=6500, loanPeriod=60)
+28-03-2023 08:04:23.619 [http-nio-9090-exec-7] INFO  e.i.loan.service.LoanDecisionService.calculate - Credit score is 0.9230769230769231
+28-03-2023 08:04:23.620 [http-nio-9090-exec-7] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Such sum could not be approved
+28-03-2023 08:04:23.620 [http-nio-9090-exec-7] INFO  e.i.loan.service.LoanDecisionService.adjustLoanAmount - Largest sum to approve 6000
+28-03-2023 08:04:23.620 [http-nio-9090-exec-7] INFO  e.i.loan.service.LoanDecisionService.calculate - Positive decision. Approved loan is 6000 € for 60 months.
+28-03-2023 08:04:38.881 [http-nio-9090-exec-8] INFO  e.i.l.c.LoanDecisionController.getLoanDecision - [REQUEST]: Loan decision requested for (personalCode=49002010965, loanAmount=5000, loanPeriod=60)
